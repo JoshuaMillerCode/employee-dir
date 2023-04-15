@@ -6,6 +6,7 @@ import { useState } from 'react';
 
 function App() {
   const [employees, setEmployees] = useState(employeeData);
+  // State for the one employee selected by the user. This state is shared with the EmployeePage
   const [selectedEmployee, setSelectedEmployee] = useState(null);
 
   return (
